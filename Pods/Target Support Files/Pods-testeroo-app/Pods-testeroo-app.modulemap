@@ -1,0 +1,6 @@
+framework module Pods_testeroo_app {
+  umbrella header "Pods-testeroo-app-umbrella.h"
+
+  export *
+  module * { export * }
+}

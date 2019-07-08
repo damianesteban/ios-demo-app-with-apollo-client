@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		973F2172D9E78FECD12C8F88 /* Pods_testeroo_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9345F94167F07785F8F2FDE2 /* Pods_testeroo_app.framework */; };
+		DA5636C8D97F52C22330FED8 /* Pods_testeroo_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997AA6182110531E69E1C323 /* Pods_testeroo_appTests.framework */; };
+		FB52A1B222D2C28B00B17BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB52A1B122D2C28B00B17BCD /* AppDelegate.swift */; };
+		FB52A1B422D2C28B00B17BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB52A1B322D2C28B00B17BCD /* ViewController.swift */; };
+		FB52A1B722D2C28B00B17BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB52A1B522D2C28B00B17BCD /* Main.storyboard */; };
+		FB52A1B922D2C28C00B17BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB52A1B822D2C28C00B17BCD /* Assets.xcassets */; };
+		FB52A1BC22D2C28C00B17BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB52A1BA22D2C28C00B17BCD /* LaunchScreen.storyboard */; };
+		FB52A1C722D2C28C00B17BCD /* testeroo_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB52A1C622D2C28C00B17BCD /* testeroo_appTests.swift */; };
+		FB52A1D322D2C42D00B17BCD /* AllPosts.graphql in Resources */ = {isa = PBXBuildFile; fileRef = FB52A1D222D2C42D00B17BCD /* AllPosts.graphql */; };
+		FB52A1D822D2C4AC00B17BCD /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = FB52A1D722D2C4AC00B17BCD /* schema.json */; };
+		FB52A1DC22D2C56F00B17BCD /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB52A1DB22D2C56F00B17BCD /* API.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB52A1C322D2C28C00B17BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB52A1A622D2C28B00B17BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB52A1AD22D2C28B00B17BCD;
+			remoteInfo = "testeroo-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BF15329B883DA6D1B96C515 /* Pods-testeroo-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testeroo-app.release.xcconfig"; path = "Target Support Files/Pods-testeroo-app/Pods-testeroo-app.release.xcconfig"; sourceTree = "<group>"; };
+		9345F94167F07785F8F2FDE2 /* Pods_testeroo_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testeroo_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		997AA6182110531E69E1C323 /* Pods_testeroo_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testeroo_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B928D09652A7728DB47D1300 /* Pods-testeroo-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testeroo-appTests.release.xcconfig"; path = "Target Support Files/Pods-testeroo-appTests/Pods-testeroo-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5D2A8E93D13F8C0FB25E830 /* Pods-testeroo-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testeroo-appTests.debug.xcconfig"; path = "Target Support Files/Pods-testeroo-appTests/Pods-testeroo-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F837E1DC845DE0AC1D42AF12 /* Pods-testeroo-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testeroo-app.debug.xcconfig"; path = "Target Support Files/Pods-testeroo-app/Pods-testeroo-app.debug.xcconfig"; sourceTree = "<group>"; };
+		FB52A1AE22D2C28B00B17BCD /* testeroo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testeroo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB52A1B122D2C28B00B17BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB52A1B322D2C28B00B17BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB52A1B622D2C28B00B17BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB52A1B822D2C28C00B17BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB52A1BB22D2C28C00B17BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB52A1BD22D2C28C00B17BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB52A1C222D2C28C00B17BCD /* testeroo-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "testeroo-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB52A1C622D2C28C00B17BCD /* testeroo_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testeroo_appTests.swift; sourceTree = "<group>"; };
+		FB52A1C822D2C28C00B17BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB52A1D222D2C42D00B17BCD /* AllPosts.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = AllPosts.graphql; sourceTree = "<group>"; };
+		FB52A1D722D2C4AC00B17BCD /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		FB52A1DB22D2C56F00B17BCD /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB52A1AB22D2C28B00B17BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973F2172D9E78FECD12C8F88 /* Pods_testeroo_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB52A1BF22D2C28C00B17BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5636C8D97F52C22330FED8 /* Pods_testeroo_appTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F5B68498B81CCF22E12B4D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9345F94167F07785F8F2FDE2 /* Pods_testeroo_app.framework */,
+				997AA6182110531E69E1C323 /* Pods_testeroo_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAFD41AFD1151F05A9E84651 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F837E1DC845DE0AC1D42AF12 /* Pods-testeroo-app.debug.xcconfig */,
+				5BF15329B883DA6D1B96C515 /* Pods-testeroo-app.release.xcconfig */,
+				E5D2A8E93D13F8C0FB25E830 /* Pods-testeroo-appTests.debug.xcconfig */,
+				B928D09652A7728DB47D1300 /* Pods-testeroo-appTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB52A1A522D2C28B00B17BCD = {
+			isa = PBXGroup;
+			children = (
+				FB52A1B022D2C28B00B17BCD /* testeroo-app */,
+				FB52A1C522D2C28C00B17BCD /* testeroo-appTests */,
+				FB52A1AF22D2C28B00B17BCD /* Products */,
+				EAFD41AFD1151F05A9E84651 /* Pods */,
+				1F5B68498B81CCF22E12B4D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB52A1AF22D2C28B00B17BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB52A1AE22D2C28B00B17BCD /* testeroo-app.app */,
+				FB52A1C222D2C28C00B17BCD /* testeroo-appTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB52A1B022D2C28B00B17BCD /* testeroo-app */ = {
+			isa = PBXGroup;
+			children = (
+				FB52A1D422D2C43D00B17BCD /* Networking */,
+				FB52A1B122D2C28B00B17BCD /* AppDelegate.swift */,
+				FB52A1B322D2C28B00B17BCD /* ViewController.swift */,
+				FB52A1B522D2C28B00B17BCD /* Main.storyboard */,
+				FB52A1B822D2C28C00B17BCD /* Assets.xcassets */,
+				FB52A1BA22D2C28C00B17BCD /* LaunchScreen.storyboard */,
+				FB52A1BD22D2C28C00B17BCD /* Info.plist */,
+			);
+			path = "testeroo-app";
+			sourceTree = "<group>";
+		};
+		FB52A1C522D2C28C00B17BCD /* testeroo-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB52A1C622D2C28C00B17BCD /* testeroo_appTests.swift */,
+				FB52A1C822D2C28C00B17BCD /* Info.plist */,
+			);
+			path = "testeroo-appTests";
+			sourceTree = "<group>";
+		};
+		FB52A1D422D2C43D00B17BCD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FB52A1D922D2C4B700B17BCD /* Queries */,
+				FB52A1D722D2C4AC00B17BCD /* schema.json */,
+				FB52A1DB22D2C56F00B17BCD /* API.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FB52A1D922D2C4B700B17BCD /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				FB52A1D222D2C42D00B17BCD /* AllPosts.graphql */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB52A1AD22D2C28B00B17BCD /* testeroo-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB52A1CB22D2C28C00B17BCD /* Build configuration list for PBXNativeTarget "testeroo-app" */;
+			buildPhases = (
+				D45726050322BC6FA5209D00 /* [CP] Check Pods Manifest.lock */,
+				FB52A1DA22D2C4DA00B17BCD /* Apollo */,
+				FB52A1AA22D2C28B00B17BCD /* Sources */,
+				FB52A1AB22D2C28B00B17BCD /* Frameworks */,
+				FB52A1AC22D2C28B00B17BCD /* Resources */,
+				B86EB6D0004D886829F8CAB3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "testeroo-app";
+			productName = "testeroo-app";
+			productReference = FB52A1AE22D2C28B00B17BCD /* testeroo-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB52A1C122D2C28C00B17BCD /* testeroo-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB52A1CE22D2C28C00B17BCD /* Build configuration list for PBXNativeTarget "testeroo-appTests" */;
+			buildPhases = (
+				28AE292676BE98EE5CFCEDB2 /* [CP] Check Pods Manifest.lock */,
+				FB52A1BE22D2C28C00B17BCD /* Sources */,
+				FB52A1BF22D2C28C00B17BCD /* Frameworks */,
+				FB52A1C022D2C28C00B17BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB52A1C422D2C28C00B17BCD /* PBXTargetDependency */,
+			);
+			name = "testeroo-appTests";
+			productName = "testeroo-appTests";
+			productReference = FB52A1C222D2C28C00B17BCD /* testeroo-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB52A1A622D2C28B00B17BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Damian Esteban";
+				TargetAttributes = {
+					FB52A1AD22D2C28B00B17BCD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FB52A1C122D2C28C00B17BCD = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FB52A1AD22D2C28B00B17BCD;
+					};
+				};
+			};
+			buildConfigurationList = FB52A1A922D2C28B00B17BCD /* Build configuration list for PBXProject "testeroo-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB52A1A522D2C28B00B17BCD;
+			productRefGroup = FB52A1AF22D2C28B00B17BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB52A1AD22D2C28B00B17BCD /* testeroo-app */,
+				FB52A1C122D2C28C00B17BCD /* testeroo-appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB52A1AC22D2C28B00B17BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB52A1BC22D2C28C00B17BCD /* LaunchScreen.storyboard in Resources */,
+				FB52A1D822D2C4AC00B17BCD /* schema.json in Resources */,
+				FB52A1B922D2C28C00B17BCD /* Assets.xcassets in Resources */,
+				FB52A1D322D2C42D00B17BCD /* AllPosts.graphql in Resources */,
+				FB52A1B722D2C28B00B17BCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB52A1C022D2C28C00B17BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28AE292676BE98EE5CFCEDB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testeroo-appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B86EB6D0004D886829F8CAB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testeroo-app/Pods-testeroo-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testeroo-app/Pods-testeroo-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testeroo-app/Pods-testeroo-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D45726050322BC6FA5209D00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testeroo-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB52A1DA22D2C4DA00B17BCD /* Apollo */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Apollo;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APOLLO_FRAMEWORK_PATH=\"$(eval find $FRAMEWORK_SEARCH_PATHS -name \"Apollo.framework\" -maxdepth 1)\"\n\nif [ -z \"$APOLLO_FRAMEWORK_PATH\" ]; then\necho \"error: Couldn't find Apollo.framework in FRAMEWORK_SEARCH_PATHS; make sure to add the framework to your project.\"\nexit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n$APOLLO_FRAMEWORK_PATH/check-and-run-apollo-cli.sh codegen:generate --queries=\"$(find . -name '*.graphql')\" --schema=Networking/schema.json Networking/API.swift\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB52A1AA22D2C28B00B17BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB52A1B422D2C28B00B17BCD /* ViewController.swift in Sources */,
+				FB52A1DC22D2C56F00B17BCD /* API.swift in Sources */,
+				FB52A1B222D2C28B00B17BCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB52A1BE22D2C28C00B17BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB52A1C722D2C28C00B17BCD /* testeroo_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB52A1C422D2C28C00B17BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB52A1AD22D2C28B00B17BCD /* testeroo-app */;
+			targetProxy = FB52A1C322D2C28C00B17BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB52A1B522D2C28B00B17BCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB52A1B622D2C28B00B17BCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB52A1BA22D2C28C00B17BCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB52A1BB22D2C28C00B17BCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB52A1C922D2C28C00B17BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB52A1CA22D2C28C00B17BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB52A1CC22D2C28C00B17BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F837E1DC845DE0AC1D42AF12 /* Pods-testeroo-app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLWU49W28G;
+				INFOPLIST_FILE = "testeroo-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.damianesteban.testeroo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB52A1CD22D2C28C00B17BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF15329B883DA6D1B96C515 /* Pods-testeroo-app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLWU49W28G;
+				INFOPLIST_FILE = "testeroo-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.damianesteban.testeroo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB52A1CF22D2C28C00B17BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D2A8E93D13F8C0FB25E830 /* Pods-testeroo-appTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLWU49W28G;
+				INFOPLIST_FILE = "testeroo-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.damianesteban.testeroo-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testeroo-app.app/testeroo-app";
+			};
+			name = Debug;
+		};
+		FB52A1D022D2C28C00B17BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B928D09652A7728DB47D1300 /* Pods-testeroo-appTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLWU49W28G;
+				INFOPLIST_FILE = "testeroo-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.damianesteban.testeroo-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testeroo-app.app/testeroo-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB52A1A922D2C28B00B17BCD /* Build configuration list for PBXProject "testeroo-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB52A1C922D2C28C00B17BCD /* Debug */,
+				FB52A1CA22D2C28C00B17BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB52A1CB22D2C28C00B17BCD /* Build configuration list for PBXNativeTarget "testeroo-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB52A1CC22D2C28C00B17BCD /* Debug */,
+				FB52A1CD22D2C28C00B17BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB52A1CE22D2C28C00B17BCD /* Build configuration list for PBXNativeTarget "testeroo-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB52A1CF22D2C28C00B17BCD /* Debug */,
+				FB52A1D022D2C28C00B17BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB52A1A622D2C28B00B17BCD /* Project object */;
+}
